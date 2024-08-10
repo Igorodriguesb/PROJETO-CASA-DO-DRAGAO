@@ -9,6 +9,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     z-index: -1;
 
 }
@@ -26,7 +27,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 100vh;
+    min-height: 90vh;
+
 }
 
 .informacoes h1{
@@ -43,7 +45,7 @@ body{
 }
 
 .informacoes .descricao{
-    width: 49%;
+    width: 45%;
     font-size: 24px;
     color: #fff;
     line-height: 40px;
@@ -64,11 +66,16 @@ body{
     width: 15px;
     height: 15px;
     cursor: pointer;
-    border: 2px solid;
+    border: 2px solid transparent;
 }
 
 .botoes-carrossel .botao-selecionado{
-    background-color: #1d8346;
+    background-color: darksalmon;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .imagem{
